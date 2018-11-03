@@ -1,5 +1,5 @@
 # OpenCV-Tutorial
-OpenCV tutorial in Arabic series on Youtube 
+OpenCV tutorial in Arabic series on [Youtube](https://www.youtube.com/playlist?list=PLoiCUace8ymMWuCPTfspLifwO-8-flXHX)
 ## Requirements
 This project requires **Python 3.5** or later and the following Python libraries installed:
 
