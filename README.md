@@ -30,11 +30,14 @@ You will also need to have IDE installed to run the code and check results prefe
 
  * Install Spyder
 >   sudo pip3 install -U spyder
+
 >   sudo pip3 install -U rope_py3k
 
  * Install Open-CV
-   * Download the required packages to compile Open-CV (may not needed)
->       sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+   - Download the required packages to compile Open-CV (may not needed)
 
-   * Unofficial Open-CV packages for Python.
+>   sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+
+   - Unofficial Open-CV packages for Python.
+
 >       sudo pip3 install -U opencv-python
