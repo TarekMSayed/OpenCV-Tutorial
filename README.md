@@ -21,7 +21,8 @@ You will also need to have IDE installed to run the code and check results prefe
  * Install and update python pip
 
 >   sudo apt-get install python3-pip
-    sudo pip3 install --upgrade pip
+
+>   sudo pip3 install --upgrade pip
     
  * Install required packages
  
