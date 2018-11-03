@@ -19,10 +19,10 @@ You will also need to have IDE installed to run the code and check results prefe
  * Follow [installation tutorial](https://docs.anaconda.com/anaconda/navigator/) and add required packages in [Anaconda environment](https://docs.anaconda.com/anaconda/navigator/tutorials/manage-packages/).
 #### Or in Terminal:
  * Install and update python pip
-'''sh
-    $ sudo apt-get install python3-pip
+
+>   $ sudo apt-get install python3-pip
     $ sudo pip3 install --upgrade pip
-'''
+    
  * Install required packages
 '''sh
     $ sudo pip3 install -U numpy pandas scikit-learn scikit-image sklearn_crfsuite Seaborn jupyter matplotlib
