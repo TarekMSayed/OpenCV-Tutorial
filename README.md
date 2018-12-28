@@ -18,26 +18,26 @@ You will also need to have IDE installed to run the code and check results prefe
  * Preferred to install [Anaconda Environment](https://www.anaconda.com/download/#windows) with **python 3.5** or later choose your [version](https://docs.anaconda.com/anaconda/packages/pkg-docs/).
  * Follow [installation tutorial](https://docs.anaconda.com/anaconda/navigator/) and add required packages in [Anaconda environment](https://docs.anaconda.com/anaconda/navigator/tutorials/manage-packages/).
 #### Or in Terminal:
- * Install and update python pip
+- Install and update python pip
 
->   sudo apt-get install python3-pip
+		sudo apt-get install python3-pip
+		sudo pip3 install --upgrade pip
 
->   sudo pip3 install --upgrade pip
-    
- * Install required packages
- 
->   sudo pip3 install -U numpy pandas scikit-learn scikit-image sklearn_crfsuite Seaborn jupyter matplotlib
+- Install required packages
 
- * Install Spyder
->   sudo pip3 install -U spyder
+		sudo pip3 install -U numpy pandas scikit-learn scikit-image sklearn_crfsuite Seaborn jupyter matplotlib
 
->   sudo pip3 install -U rope_py3k
+- Install Spyder
 
- * Install Open-CV
-   - Download the required packages to compile Open-CV (may not needed)
+		sudo pip3 install -U spyder
+		sudo pip3 install -U rope_py3k
 
->   sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+- Install Open-CV
 
-   - Unofficial Open-CV packages for Python.
+	- Download the required packages to compile Open-CV (may not needed)
 
->       sudo pip3 install -U opencv-python
+			sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+
+   	- Unofficial Open-CV packages for Python.
+
+			sudo pip3 install -U opencv-python
